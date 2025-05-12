@@ -5,6 +5,8 @@ void main() {
 }
 
 class IplTeam extends StatelessWidget {
+  const IplTeam({super.key});
+
   @override
   Widget build(BuildContext context) {
     return (MaterialApp(
